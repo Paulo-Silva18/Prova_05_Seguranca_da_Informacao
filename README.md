@@ -196,8 +196,6 @@ curl -o /dev/null -s -w "Tempo total: %{time_total}s\n" --max-time 5 http://192.
 | Tempo de resposta HTTP | 0.005s | 0.55s (chegando a timeout de 5s) | **0.000000s** |
 | Pacotes de ataque descartados (contador iptables) | — | — | **224.000+** |
 
-> *(Inserir print do terminal mostrando o `curl` com tempo de resposta quase instantâneo, com o ataque ainda ativo em outro terminal.)*
-
 **Conclusão da Etapa 2:** mesmo com o ataque SYN Flood ativo e descartando constantemente pacotes do IP atacante, o serviço HTTP permaneceu disponível e respondendo rapidamente, confirmando a eficácia da combinação de SYN cookies + rate limiting por IP (hashlimit) + connlimit.
 
 ---
@@ -211,3 +209,6 @@ O laboratório demonstrou, de forma controlada e isolada, como um ataque de Nega
 ## Observações Éticas
 
 Este laboratório foi executado em ambiente estritamente isolado (rede Host-Only do VirtualBox, sem acesso externo), com máquinas de propriedade do próprio autor, exclusivamente para fins educacionais no contexto da disciplina de Segurança da Informação. Nenhum sistema de terceiros foi afetado.
+
+
+Link do vídeo do YouTube: https://youtu.be/6RZW6SyqICM
