@@ -2,6 +2,8 @@
 
 Atividade prática da disciplina **Segurança da Informação** — IFTM Campus Patrocínio.
 
+Link do vídeo do YouTube: https://youtu.be/6RZW6SyqICM
+
 ## Objetivo
 
 Demonstrar, em ambiente virtualizado estritamente isolado (rede Host-Only, sem acesso externo), o impacto de um ataque de Negação de Serviço (DoS) do tipo **SYN Flood** contra um servidor web, e validar a eficácia de uma mitigação baseada em **firewall com rate limiting por IP de origem** e **SYN cookies**.
@@ -209,6 +211,3 @@ O laboratório demonstrou, de forma controlada e isolada, como um ataque de Nega
 ## Observações Éticas
 
 Este laboratório foi executado em ambiente estritamente isolado (rede Host-Only do VirtualBox, sem acesso externo), com máquinas de propriedade do próprio autor, exclusivamente para fins educacionais no contexto da disciplina de Segurança da Informação. Nenhum sistema de terceiros foi afetado.
-
-
-Link do vídeo do YouTube: https://youtu.be/6RZW6SyqICM
